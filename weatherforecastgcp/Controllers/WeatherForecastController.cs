@@ -39,7 +39,7 @@ namespace weatherforecastgcp.Controllers
         [HttpGet (Name = "SayHello")]
         public IActionResult SayHello()
         {
-            return Ok("Hello Abhimanyu Singh 4");
+            return Ok("Hello Abhimanyu Singh");
         }
     }
 }
